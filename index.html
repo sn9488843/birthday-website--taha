@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <style>
+    /* Body & Background */
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #fddb92, #d1fdff);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    /* Title */
+    h1 {
+      color: #ff4b5c;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #ffe066;
+      animation: pop 1s ease-in-out infinite alternate;
+    }
+
+    /* Name */
+    h2 {
+      color: #6a0572;
+      font-size: 2rem;
+      margin: 5px 0;
+    }
+
+    /* Date */
+    p.date {
+      color: #0a9396;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    /* Wishes Text */
+    p.wishes {
+      font-size: 1.5rem;
+      color: #ee6c4d;
+      margin-bottom: 30px;
+      background: #fff4f4;
+      padding: 15px 25px;
+      border-radius: 15px;
+      box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
+      display: inline-block;
+      animation: bounce 2s infinite;
+    }
+
+    /* Cake Image */
+    img.cake {
+      width: 250px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+      margin-top: 20px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    /* Balloons */
+    .balloon {
+      position: absolute;
+      bottom: -150px;
+      width: 50px;
+      height: 70px;
+      border-radius: 50% 50% 50% 50%;
+      background-color: red;
+      animation: floatBalloon 6s linear infinite;
+      opacity: 0.8;
+    }
+    .balloon:nth-child(1) { left: 10%; background-color: #ff4b5c; animation-delay: 0s; }
+    .balloon:nth-child(2) { left: 30%; background-color: #ffb347; animation-delay: 1s; }
+    .balloon:nth-child(3) { left: 50%; background-color: #0a9396; animation-delay: 2s; }
+    .balloon:nth-child(4) { left: 70%; background-color: #6a0572; animation-delay: 3s; }
+    .balloon:nth-child(5) { left: 90%; background-color: #fdd835; animation-delay: 4s; }
+
+    @keyframes pop {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.1); }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    @keyframes floatBalloon {
+      0% { bottom: -150px; }
+      100% { bottom: 100%; transform: translateX(0); }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Balloons -->
+  <div class="balloon"></div>
+  <div class="balloon"></div>
+  <div class="balloon"></div>
+  <div class="balloon"></div>
+  <div class="balloon"></div>
+
+  <!-- Content -->
+  <h1>🎉 Happy Birthday! 🎉</h1>
+  <h2>Taha</h2>
+  <p class="date">23 April</p>
+  <p class="wishes">Best wishes from your best friend! 🎈🎁</p>
+  <img class="cake" src="https://i.ibb.co/qFQ1V5p/birthday-cake.png" alt="Birthday Cake">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Taha</title>
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>🎉 Happy Birthday Taha 🎂</h1>
+        <h2>📅 23 April</h2>
+
+        <div class="avatar">Taha</div>
+
+
+        <p class="wish">
+            Dear Taha 💖 <bar><bar>
+            Tum meri life  key sab se ache dost ho.  
+            Temari Dosti meri life ka  sab se bara gift hay.  
+            Allah tumen Hamshaw Khush  rakhei,  
+            tamari Har wish poori ho 🌸✨ <bar><bar>
+            💕 Best Wishes from Your Best Friend 💕
+        </p>
+
+        <button>🎁 With Lots of Love 🎁</button>
+    </div>
+
+</body>
+</html>                                                                                                                                       
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <style>
+    /* Background Gradient */
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    /* Title */
+    h1 {
+      color: #ff4b5c;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #ffe066;
+      animation: pop 1s ease-in-out infinite alternate;
+    }
+
+    /* Name */
+    h2 {
+      color: #6a0572;
+      font-size: 2rem;
+      margin: 5px 0;
+    }
+
+    /* Date */
+    p.date {
+      color: #0a9396;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    /* Wishes Text */
+    p.wishes {
+      font-size: 1.5rem;
+      color: #ee6c4d;
+      margin-bottom: 30px;
+      background: #fff4f4;
+      padding: 15px 25px;
+      border-radius: 15px;
+      box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
+      display: inline-block;
+      animation: bounce 2s infinite;
+    }
+
+    /* Cake Image */
+    img.cake {
+      width: 250px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+      margin-top: 20px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    /* Animations */
+    @keyframes pop {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.1); }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Happy Birthday! 🎉</h1>
+  <h2>Taha</h2>
+  <p class="date">23 April</p>
+  <p class="wishes">Best wishes from your best friend! 🎈🎁</p>
+  <img class="cake" src="https://i.ibb.co/qFQ1V5p/birthday-cake.png" alt="Birthday Cake">
+
+</body>
+</html>
